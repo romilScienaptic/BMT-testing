@@ -1,0 +1,451 @@
+<html>
+<head>
+    <title>Playbook Showcase</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            src: url('./fonts/Roboto-Black.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Roboto-regular';
+            font-style: normal;
+            src: url('./fonts/Roboto-Medium.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Roboto-thin';
+            font-style: normal;
+            src: url('./fonts/Roboto-Thin.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Montserrat';
+            font-style: normal;
+            src: url('./fonts/Montserrat-Bold.otf') format('truetype');
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            background-size: 100% 100% !important;
+        }
+
+        /* upper Header*/
+        .navbar {
+            background-color: #001F2C;
+            height: 120px;
+            color: white;
+        }
+
+        .header-btn1 {
+            color: white;
+            border: 2.5px solid white;
+            border-radius: 10px;
+            background-color: #001F2C !important;
+            font-size: larger;
+            width: 178px;
+            height: 90px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 28px;
+            color: #FFFFFF;
+        }
+
+        .header-btn2 {
+            color: white;
+            border: 2.5px solid white;
+            border-radius: 10px;
+            background-color: #001F2C !important;
+            padding: 0.3em;
+            font-size: larger;
+            width: 144px;
+            height: 58px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            color: #FFFFFF;
+        }
+
+        /* UpperLayout*/
+
+
+        .parent {
+            display: flex;
+            flex-direction: row;
+        }
+
+        /*section 7*/
+
+        .layout1-section7 {
+            padding-top: 15% !important;
+            padding-bottom: 15% !important;
+            width: 100%;
+            background-color: #EFEFEF;
+            margin-top: 7em;
+        }
+
+        .layout1-some-data {
+            font-family: 'Roboto';
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 52px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+
+        /* -------------------------------------------------------------------------------------------- */
+        .rightside {
+            width: 100%;
+            display: column;
+        }
+
+        .parent {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .ur-btn {
+            float: left !important;
+            margin-top: 7em;
+            border: none;
+            font-family: 'Roboto';
+            width: 260.59px;
+            height: 41.14px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            color: #666666;
+        }
+
+        .screenshot {
+            float: left !important;
+            width: 400px;
+            height: 300px;
+        }
+
+        /*heading*/
+
+        .ur-text1 {
+            float: left !important;
+            text-align: left !important;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700 !important;
+            font-size: 15px;
+            line-height: 143%;
+        }
+
+        .ur-text2 {
+            margin-top: 1em;
+            float: left !important;
+            text-align: left !important;
+            font-weight: 500;
+            font-family: 'Roboto-regular';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 143%;
+        }
+
+        /* heading + text*/
+
+        .ur-font-top {
+            float: left !important;
+            text-align: left !important;
+            padding-top: 0.5em !important;
+            font-weight: 700;
+            font-size: large;
+        }
+
+        .ur-font {
+            float: left !important;
+            text-align: left !important;
+        }
+
+        .ur-font1 {
+            font-family: 'Roboto';
+            float: left !important;
+            font-weight: 700;
+        }
+
+        .ur-font2 {
+            margin-left: 0.3em;
+            font-weight: 500;
+            font-size: 14px;
+        }
+
+        /* list of features*/
+
+        .list-of-feature {
+            font-family: 'Roboto-regular';
+            float: left !important;
+            padding-top: 1em;
+            margin-left: 2em;
+            text-align: left !important;
+            font-style: normal;
+            font-size: 15px;
+            line-height: 143%;
+            list-style: none;
+        }
+
+        /* -------------------------------------------------------------------------------------------- */
+
+        .ul-text {
+            font-family: 'Roboto';
+            margin-left: 1.5em;
+            margin-top: 5.5em;
+            font-style: normal;
+            text-align: left;
+            font-size: 24px;
+            line-height: 34.32px;
+        }
+
+        .ul-image {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+        }
+
+        /*small images*/
+
+        .image-parent {
+            margin-top: 2em;
+        }
+
+        .small-image {
+            width: 6em;
+            height: 5em;
+            margin-left: 0.8em;
+            margin-right: 0.8em;
+            margin-bottom: 1em;
+            margin-top: 1em;
+            border: 2px solid rgb(233, 233, 233);
+            padding: 0.2em;
+            cursor: pointer;
+        }
+
+        .small-image:hover {
+            border: 2px solid orange;
+        }
+
+        /* -------------------------------------------------------------------------------------------- */
+        .displayModule1ForFullScreen {
+            display: block;
+        }
+
+        .displayModule1ForShortScreen {
+            display: none;
+        }
+
+        .layout1-rect-image1,
+        .layout1-rect-image2 {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+        }
+
+        .layout1-Module1-text1 {
+            padding-top: 4em;
+            text-align: left !important;
+        }
+
+        .layout1-Module1-text2 {
+            padding-top: 4em;
+            text-align: left !important;
+        }
+
+
+        .layout1-Module1-text1-part1,
+        .layout1-Module1-text2-part1 {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: bold;
+            /* // font-size: 40px; */
+            font-size: 3vmax;
+            line-height: 128.9%;
+            text-transform: uppercase;
+            color: #464646;
+        }
+
+        .layout1-Module1-text1-part2,
+        .layout1-Module1-text2-part2 {
+            font-family: 'Roboto-thin';
+            font-style: normal;
+            /* font-size: 30px; */
+            font-size: 2vmax;
+            line-height: 128.9%;
+            color: #464646;
+        }
+
+
+        .layout1-Module1-even {
+            margin-top: 1em;
+            margin-bottom: 1em;
+            padding-top: 2em;
+            padding-bottom: 2em;
+        }
+
+        .layout1-Module1-odd {
+            margin-top: 1em;
+            margin-bottom: 1em;
+            padding-top: 2em;
+            padding-bottom: 2em;
+        }
+
+
+        /* -------------------------------------------------------------------------------------------- */
+        /* -------------------------------------------------------------------------------------------- */
+        /* -------------------------------------------------------------------------------------------- */
+        /* -------------------------------------------------------------------------------------------- */
+    </style>
+</head>
+
+<body>
+    <div>
+        <nav class="navbar" py-2>
+            <button class="header-btn1">Playbook 2.0 Templates</button>
+            <button class="header-btn2">Download</button>
+        </nav>
+        <div class="row no-gutters">
+            <div class="col-md-6">
+                <Row>
+                    <Col xs={{ span: 22 }} sm={{ span: 22 }} md={{ span: 20, offset: 1 }}>
+                    <h5 class="ul-text">E-COMMERCE TITLE SHORT PRODUCT NAME + SPECS INFUSED</h5>
+                    <img class="ul-image" src="https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-6.png"
+                        alt="laptop image" />
+                    <div class="image-parent">
+                        <img class="small-image"
+                            src="https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-6.png" alt="image" />
+                        <img class="small-image"
+                            src="https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-6.png" alt="image" />
+                        <img class="small-image"
+                            src="https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-6.png" alt="image" />
+                        <img class="small-image"
+                            src="https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-6.png" alt="image" />
+                        <img class="small-image"
+                            src="https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-6.png" alt="image" />
+                    </div>
+                    </Col>
+                </Row>
+            </div>
+            <div class="col-md-6">
+                <div class="rightside">
+                    <Row>
+                        <Col xs={{ span: 22, offset: 1 }} sm={{ span: 22, offset: 1 }} md={{ span: 21, offset: 1 }}>
+                        <div class="parent">
+                            <button class="ur-btn">HP UGC FEED</button>
+                        </div>
+                        <img class="screenshot" src="./assets/eservicesss.PNG" alt="image" />
+                        <div style="text-align: left important; float: left important">
+                            <h6 class="ur-text1">family_positioning_overview_medium<span
+                                    style=" color:white">--------------------------------------</span></h6>
+                            <p class="ur-text2">proddes_overview_extended</p>
+
+                            <div class="list-of-feature">
+                                <ul>
+                                    <li class="ur-font"><span class="ur-font1">ksp_01_headline_medium</span><span
+                                            class="ur-font2">ksp_01_suppt_01_short</span></li>
+                                    <li class="ur-font"><span class="ur-font1">ksp_02_headline_medium</span><span
+                                            class="ur-font2">ksp_02_suppt_01_short</span></li>
+                                    <li class="ur-font"><span class="ur-font1">ksp_03_headline_medium</span><span
+                                            class="ur-font2">ksp_03_suppt_01_short</span></li>
+                                    <li class="ur-font"><span class="ur-font1">feature_01_headline_01_statement
+                                        </span><span class="ur-font2">feature_01_suppt_01_medium</span></li>
+                                </ul>
+                            </div>
+
+                            <div class="list-of-feature">
+                                <ul>
+                                    <li>processorname<span
+                                            style=" color:white">--------------------------------------</span></li>
+                                    <li>CPU brand + model + bin + generation (e.g.: AMD Ryzen™ 5 4500U 10th Gen
+                                        Processor)</li>
+                                    <li>memstdes_01_short???> Memory Capacity + RAM + Tech (e.g.: 8GB RAM DDR4 Memory)
+                                    </li>
+                                    <li>Storage Capacity + Tech (e.g.: 256GB SSD + 1TB HDD Storage)</li>
+                                    <li>osinstalled</li>
+                                    <li>Display resolution + and touch (e.g.: 15.6" diagonal Full HD touch screen
+                                        display)</li>
+                                    <li>GPU Brand + Model + Memory</li>
+                                    <li>productcolour</li>
+                                    <li>UPGRADABILITY</li>
+                                    <li>whyUseHp</li>
+                                </ul>
+                            </div>
+                        </div>
+                        </Col>
+                    </Row>
+                </div>
+            </div>
+        </div>
+
+        <Row style="margin-top:-2em; margin-bottom:-3em">
+            <Col xs={{ span: 22, offset: 1 }} sm={{ span: 22, offset: 1 }}>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                    <path fill="#EFEFEF" fill-opacity="1"
+                        d="M0,128L60,144C120,160,240,192,360,186.7C480,181,600,139,720,112C840,85,960,75,1080,96C1200,117,1320,171,1380,197.3L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+                    </path>
+                </svg>
+            </div>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                    <path fill="#EFEFEF" fill-opacity="1"
+                        d="M0,128L60,144C120,160,240,192,360,186.7C480,181,600,139,720,112C840,85,960,75,1080,96C1200,117,1320,171,1380,197.3L1440,224L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
+                    </path>
+                </svg>
+            </div>
+            </Col>
+        </Row>
+        <div class="displayModule1ForFullScreen">{
+            <div class="layout1-Module1-even">
+                <Row>
+                    <Col xs={{ span: 22 }} sm={{ span: 22 }} md={{ span: 9 }}>
+                    <img class="layout1-rect-image1" src={data.Module1Image} alt="image" />
+                    </Col>
+
+                    <Col class="layout1-Module1-text1" xs={{ span: 22 }} sm={{ span: 22 }} md={{ span: 13, offset: 1 }}>
+                    <h3 class="layout1-Module1-text1-part1" style=" font-weight: 600 ">{data.Module1Heading}</h3>
+                    <p class="layout1-Module1-text1-part2" style=" font-weight: 600 ">{data.Module1Para}</p>
+                    </Col>
+                </Row>
+            </div>
+            <div class="layout1-Module1-odd">
+                <Row>
+
+                    <Col class="layout1-Module1-text2" xs={{ span: 22 }} sm={{ span: 22 }} md={{ span: 13,offset:1 }}>
+                    <h3 class="layout1-Module1-text2-part1" style=" font-weight: 600 ">{data.Module1Heading}</h3>
+                    <p class="layout1-Module1-text2-part2" style=" font-weight: 600 ">{data.Module1Para}</p>
+                    </Col>
+
+                    <Col xs={{ span: 22 }} sm={{ span: 22 }} md={{ span: 9,offset:1}}>
+                    <img class="layout1-rect-image2" src={data.Module1Image} alt="image" />
+                    </Col>
+                </Row>
+            </div>
+            <div class="layout1-Module1-even">
+                <Row>
+                    <Col xs={{ span: 22 }} sm={{ span: 22 }} md={{ span: 9 }}>
+                    <img class="layout1-rect-image1" src={data.Module1Image} alt="image" />
+                    </Col>
+
+                    <Col class="layout1-Module1-text1" xs={{ span: 22 }} sm={{ span: 22 }} md={{ span: 13, offset: 1 }}>
+                    <h3 class="layout1-Module1-text1-part1" style=" font-weight: 600 ">{data.Module1Heading}</h3>
+                    <p class="layout1-Module1-text1-part2" style=" font-weight: 600 ">{data.Module1Para}</p>
+                    </Col>
+                </Row>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
