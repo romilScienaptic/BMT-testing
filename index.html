@@ -1,4 +1,5 @@
 <html>
+
 <head>
     <title>Playbook Showcase</title>
     <!-- <link rel="stylesheet" href="style.css"> -->
@@ -27,6 +28,18 @@
             font-family: 'Montserrat';
             font-style: normal;
             src: url('./fonts/Montserrat-Bold.otf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Montserrat';
+            font-style: normal;
+            src: url('./fonts/Montserrat-Bold.otf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'HP Simplified';
+            font-style: normal;
+            src: url('./fonts/HPSimplified_Lt.ttf') format('truetype');
         }
 
         * {
@@ -84,11 +97,12 @@
         /*section 7*/
 
         .layout1-section7 {
-            padding-top: 15% !important;
-            padding-bottom: 15% !important;
-            width: 100%;
+            padding-top: 12% !important;
+            padding-bottom: 12% !important;
             background-color: #EFEFEF;
             margin-top: 7em;
+            margin-left: 50;
+            margin-right: 50;
         }
 
         .layout1-some-data {
@@ -209,20 +223,21 @@
         }
 
         .ul-image {
-            width: 100%;
-            max-width: 500px;
-            height: auto;
+            width: 500;
+            height: 500;
+            margin-left: 50;
         }
 
         /*small images*/
 
         .image-parent {
             margin-top: 2em;
+            margin-left: 30;
         }
 
         .small-image {
-            width: 6em;
-            height: 5em;
+            width: 5.4em;
+            height: 4.4em;
             margin-left: 0.8em;
             margin-right: 0.8em;
             margin-bottom: 1em;
@@ -247,9 +262,8 @@
 
         .layout1-rect-image1,
         .layout1-rect-image2 {
-            width: 100%;
-            max-width: 500px;
-            height: auto;
+            width: 500;
+            height: 500;
         }
 
         .layout1-Module1-text1 {
@@ -269,6 +283,8 @@
             font-style: normal;
             font-weight: bold;
             /* // font-size: 40px; */
+            margin-top: 170;
+            margin-left: 30;
             font-size: 3vmax;
             line-height: 128.9%;
             text-transform: uppercase;
@@ -281,12 +297,15 @@
             font-style: normal;
             /* font-size: 30px; */
             font-size: 2vmax;
+            margin-left: 30;
             line-height: 128.9%;
             color: #464646;
         }
 
 
         .layout1-Module1-even {
+            display: flex;
+            flex-direction: row;
             margin-top: 1em;
             margin-bottom: 1em;
             padding-top: 2em;
@@ -302,8 +321,167 @@
 
 
         /* -------------------------------------------------------------------------------------------- */
+
+        .layout1-rect-image-3 {
+            height: 500;
+            width: 500;
+            margin-left: 80;
+            margin-top: -100;
+        }
+
+        .layout1-Module1Features-even {
+            display: flex;
+            flex-direction: row;
+            padding-top: 4em;
+        }
+
+        .layout1-Module1Features-odd {
+            padding-top: 2em;
+            padding-bottom: 2em;
+        }
+
+        .layout1-Module1Features-text1 {
+            margin-top: 3% !important;
+            text-align: left !important;
+        }
+
+
+        .layout1-Module1Features-text2 {
+            margin-top: 3% !important;
+            text-align: left !important;
+        }
+
+        .layout1-Module1Features-bold {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 1.80vmax;
+            text-transform: uppercase;
+            color: #000000;
+        }
+
+        .layout1-Module1Features-light {
+            font-family: 'Roboto-thin';
+            font-style: normal;
+            font-weight: 300;
+            /* // font-size: 22px; */
+            font-size: 1.57vmax;
+            color: #000000;
+        }
+
+
+
+
         /* -------------------------------------------------------------------------------------------- */
+        .layout1-Module2-parent {
+            display: flex;
+            flex-direction: row;
+            margin-left: 50;
+            margin-right: 50;
+            height: 30em auto;
+            background-color: #EFEFEF;
+            margin-top: 2em !important;
+        }
+
+        .layout1-Module2-col1 {
+            text-align: left !important;
+            padding-left: 100;
+        }
+
+        .layout1-Module2-col3 {
+            text-align: left !important;
+            padding-left: 250;
+        }
+
+        .layout1-Module2-col2 {
+            text-align: left !important;
+            padding-left: 280;
+        }
+
+        .layout1-leftAllInfo {
+            padding-top: 0.4em;
+            text-align: left !important;
+            font-family: 'HP Simplified';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+        }
+
+        .layout1-rightAllInfo {
+            padding-top: 0.4em;
+            text-align: left !important;
+            font-family: 'HP Simplified';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .layout1-hyperlink {
+            color: #1890ff !important;
+            font-family: 'HP Simplified';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 25px;
+            line-height: 128.9%;
+        }
+
+        .layout1-Module2-light {
+            font-family: 'HP Simplified';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 128.9%;
+            color: #2C3038;
+            margin-top: -0.5em;
+        }
+
+        .layout1-Module2-bold {
+            font-family: 'HP Simplified';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 27px;
+            line-height: 128.9%;
+            color: #2C3038;
+            margin-top: -0.5em;
+        }
+
+
         /* -------------------------------------------------------------------------------------------- */
+
+        .layout1-Module4-image1 {
+            width: 500;
+            height: 500;
+            margin-left: 60;
+        }
+
+        .layout1-Module4-image2 {
+            width: 90%;
+            height: 10%;
+        }
+
+        .layout1-Module4-text {
+            text-align: left;
+            font-family: 'HP Simplified';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 128.9%;
+            color: #464646;
+        }
+
+        .layout1-Module4-text-subParent {
+            text-align: left;
+            font-family: 'HP Simplified';
+            font-style: normal;
+            font-weight: normal;
+            padding-top: 50px;
+            margin-top: 100;
+            font-size: 30px;
+            line-height: 128.9%;
+            color: #464646;
+        }
+
+
         /* -------------------------------------------------------------------------------------------- */
     </style>
 </head>
@@ -387,8 +565,7 @@
             </div>
         </div>
 
-        <Row style="margin-top:-2em; margin-bottom:-3em">
-            <Col xs={{ span: 22, offset: 1 }} sm={{ span: 22, offset: 1 }}>
+        <div style="margin-left:40; margin-right:40;">
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                     <path fill="#EFEFEF" fill-opacity="1"
@@ -403,48 +580,144 @@
                     </path>
                 </svg>
             </div>
-            </Col>
-        </Row>
-        <div class="displayModule1ForFullScreen">{
+        </div>
+
+        <div class="displayModule1ForFullScreen">
             <div class="layout1-Module1-even">
-                <Row>
-                    <Col xs={{ span: 22 }} sm={{ span: 22 }} md={{ span: 9 }}>
-                    <img class="layout1-rect-image1" src={data.Module1Image} alt="image" />
-                    </Col>
-
-                    <Col class="layout1-Module1-text1" xs={{ span: 22 }} sm={{ span: 22 }} md={{ span: 13, offset: 1 }}>
-                    <h3 class="layout1-Module1-text1-part1" style=" font-weight: 600 ">{data.Module1Heading}</h3>
-                    <p class="layout1-Module1-text1-part2" style=" font-weight: 600 ">{data.Module1Para}</p>
-                    </Col>
-                </Row>
-            </div>
-            <div class="layout1-Module1-odd">
-                <Row>
-
-                    <Col class="layout1-Module1-text2" xs={{ span: 22 }} sm={{ span: 22 }} md={{ span: 13,offset:1 }}>
-                    <h3 class="layout1-Module1-text2-part1" style=" font-weight: 600 ">{data.Module1Heading}</h3>
-                    <p class="layout1-Module1-text2-part2" style=" font-weight: 600 ">{data.Module1Para}</p>
-                    </Col>
-
-                    <Col xs={{ span: 22 }} sm={{ span: 22 }} md={{ span: 9,offset:1}}>
-                    <img class="layout1-rect-image2" src={data.Module1Image} alt="image" />
-                    </Col>
-                </Row>
+                <div>
+                    <img class="layout1-rect-image1" style="margin-left:50;"
+                        src="https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-6.png" alt="image" />
+                </div>
+                <div>
+                    <h3 class="layout1-Module1-text1-part1" style=" font-weight: 600 ">ksp_01_headline_medium</h3>
+                    <p class="layout1-Module1-text1-part2" style=" font-weight: 600 ">ksp_01_suppt_01_short</p>
+                </div>
             </div>
             <div class="layout1-Module1-even">
-                <Row>
-                    <Col xs={{ span: 22 }} sm={{ span: 22 }} md={{ span: 9 }}>
-                    <img class="layout1-rect-image1" src={data.Module1Image} alt="image" />
-                    </Col>
+                <div>
+                    <h3 class="layout1-Module1-text1-part1" style=" font-weight: 600; margin-left:110; ">
+                        ksp_02_headline_medium</h3>
+                    <p class="layout1-Module1-text1-part2" style=" font-weight: 600 ; margin-left:110;">
+                        ksp_02_suppt_01_short</p>
+                </div>
+                <div>
+                    <img class="layout1-rect-image1" style="margin-left:30;"
+                        src="https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-6.png" alt="image" />
+                </div>
+            </div>
 
-                    <Col class="layout1-Module1-text1" xs={{ span: 22 }} sm={{ span: 22 }} md={{ span: 13, offset: 1 }}>
-                    <h3 class="layout1-Module1-text1-part1" style=" font-weight: 600 ">{data.Module1Heading}</h3>
-                    <p class="layout1-Module1-text1-part2" style=" font-weight: 600 ">{data.Module1Para}</p>
-                    </Col>
-                </Row>
+            <div class="layout1-Module1-even">
+                <div>
+                    <img class="layout1-rect-image1" style="margin-left:50;"
+                        src="https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-6.png" alt="image" />
+                </div>
+                <div>
+                    <h3 class="layout1-Module1-text1-part1" style=" font-weight: 600 ">ksp_03_headline_medium</h3>
+                    <p class="layout1-Module1-text1-part2" style=" font-weight: 600 ">ksp_03_suppt_01_short</p>
+                </div>
             </div>
         </div>
 
+
+        <div class="layout1-Module1Features-even">
+            <div style="margin-left:120">
+                <div>
+                    <h5 class="layout1-Module1Features-bold">feature_0x_headline_0x_statement</h5>
+                    <p class="layout1-Module1Features-light">feature_0x_suppt_0x_medium</p>
+                </div>
+                <div>
+                    <h5 class="layout1-Module1Features-bold">feature_0x_headline_0x_statement</h5>
+                    <p class="layout1-Module1Features-light">feature_0x_suppt_0x_medium</p>
+                </div>
+                <div>
+                    <h5 class="layout1-Module1Features-bold">feature_0x_headline_0x_statement</h5>
+                    <p class="layout1-Module1Features-light">feature_0x_suppt_0x_medium</p>
+                </div>
+            </div>
+
+            <div>
+                <img class="layout1-rect-image-3"
+                    src="https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-6.png" alt="image" />
+            </div>
+
+        </div>
+
+        <div class="layout1-Module1Features-even" style="margin-top:20">
+            <div style="margin-left:-10">
+                <img class="layout1-rect-image-3"
+                    src="https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-6.png" alt="image" />
+            </div>
+            <div style="margin-left:40">
+                <div>
+                    <h5 class="layout1-Module1Features-bold">feature_0x_headline_0x_statement</h5>
+                    <p class="layout1-Module1Features-light">feature_0x_suppt_0x_medium</p>
+                </div>
+                <div>
+                    <h5 class="layout1-Module1Features-bold">feature_0x_headline_0x_statement</h5>
+                    <p class="layout1-Module1Features-light">feature_0x_suppt_0x_medium</p>
+                </div>
+                <div>
+                    <h5 class="layout1-Module1Features-bold">feature_0x_headline_0x_statement</h5>
+                    <p class="layout1-Module1Features-light">feature_0x_suppt_0x_medium</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="layout1-Module2-parent">
+            <div class="layout1-Module2-col1">
+                <p class="layout1-Module2-light" style=" padding-top:3em">Display</p>
+                <p class="layout1-Module2-bold">display</p>
+
+                <p class="layout1-Module2-light" style=" padding-top:3em">Battery</p>
+                <p class="layout1-Module2-bold">Battery</p>
+
+                <p class="layout1-Module2-light" style=" padding-top:3em">Weight</p>
+                <p class="layout1-Module2-bold">Weight</p>
+            </div>
+
+            <div class="layout1-Module2-col2">
+                <p class="layout1-Module2-light" style=" padding-top:3em">Processor</p>
+                <p class="layout1-Module2-bold">Processor</p>
+
+                <p class="layout1-Module2-light" style=" padding-top:3em">Memory</p>
+                <p class="layout1-Module2-bold">Memory</p>
+
+                <p class="layout1-Module2-light" style=" padding-top:3em">Operating System</p>
+                <p class="layout1-Module2-bold">Operating System</p>
+            </div>
+
+            <div class="layout1-Module2-col3">
+                <p class="layout1-Module2-light" style=" padding-top:3em">Storage</p>
+                <p class="layout1-Module2-bold">Storage</p>
+
+                <p class="layout1-Module2-light" style=" padding-top:3em">Connectivity</p>
+                <p class="layout1-Module2-bold">Connectivity</p>
+            </div>
+        </div>
+        <div style="display: flex; flex-direction: row; margin-top:20">
+            <div class="layout1-Module4-image-parent">
+                <img class="layout1-Module4-image1"
+                    src="https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-6.png" alt="image"></img>
+            </div>
+            <div class="layout1-Module4-text-parent" style="margin-left:100">
+                <h1 class="layout1-Module4-text-subParent">Available ports</h1>
+                <h4 class="layout1-Module4-text">data</h4>
+            </div>
+            </Col>
+        </div>
+
+        <div>
+            <div class="layout1-section7">
+                <h3 class="layout1-some-data">CROSS-SELL</h3>
+                <h3 class="layout1-some-data">RECOMMENDED BY HP</h3>
+            </div>
+        </div>
+
+        <div>
+            <div class="layout1-section7" style="margin-top:50; margin-bottom:50">
+                <h3 class="layout1-some-data">LEGAL</h3>
+            </div>
+        </div>
     </div>
 </body>
 
